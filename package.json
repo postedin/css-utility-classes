@@ -1,0 +1,29 @@
+{
+  "name": "css-utility-classes",
+  "version": "0.1.0",
+  "description": "Generic CSS utility classes.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/postedin/css-utility-classes"
+  },
+  "author": "robbo@postedin.com",
+  "license": "MIT",
+  "keywords": [
+    "css-utilities",
+    "css",
+    "style",
+    "sass"
+  ],
+  "scripts": {
+    "setup": "yarn run setup:install && yarn run setup:hooks",
+    "setup:install": "yarn install",
+    "setup:hooks": "(cd .git/hooks && ln -sf ../../.pre-commit pre-commit && ln -sf ../../.post-commit post-commit)",
+    "build": "node_modules/.bin/npm-sass index.scss > dist/utils.css",
+    "watch": "node_modules/.bin/nodemon -e scss -x \"yarn run build\""
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "npm-sass": "^2.1.0"
+  }
+}
