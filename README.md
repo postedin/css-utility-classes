@@ -24,7 +24,7 @@ min-height: size is `0 - 200` incrementing up by `5px`
 - `.mh-#{size}` for `margin`, `.mh-#{size}i` with `!important`
 
 margin: size is `0 - 100` incrementing up by `5px`
-- `.u-m-#{size}` for `margin`, `.u-m-#{size}i` with `!important`
+- `.u-m-#{size}` for `margin`, `.u-m-#{size}i` with `!important` (all following classes have the same option)
 - `.u-mt-#{size}` for `top-margin`
 - `.u-mr-#{size}` for `right-margin`
 - `.u-mb-#{size}` for `bottom-margin`
@@ -33,7 +33,7 @@ margin: size is `0 - 100` incrementing up by `5px`
 - `.u-my-#{size}` for `top-margin` and `bottom-margin`
 
 padding: size is `0 - 100` incrementing up by `5px`
-- `.u-p-#{size}` for `padding`, `.u-p-#{size}i` with `!important`
+- `.u-p-#{size}` for `padding`, `.u-p-#{size}i` with `!important` (all following classes have the same option)
 - `.u-pt-#{size}` for `top-padding`
 - `.u-pr-#{size}` for `right-padding`
 - `.u-pb-#{size}` for `bottom-padding`
