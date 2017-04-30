@@ -1,6 +1,6 @@
 {
   "name": "css-utility-classes",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generic CSS utility classes.",
   "main": "index.js",
   "repository": {
